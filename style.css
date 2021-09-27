@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.h1 {
+  color: #fff;
+}
+body {
+  zoom: 2;
+}
+.batman {
+  background-image: url("assets/wallpapers/naruto_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.batman-title {
+  color: black;
+}
+
+.info {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+.game-list a,
+.game-list a:visited {
+  color: green;
+}
+
+.header-wrap {
+  display: block;
+  width: auto;
+  height: auto;
+  color: #aaaaaa;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Press Start 2P", cursive;
+  transform: perspective(200px) rotateX(10deg);
+  letter-spacing: 0.1em;
+  user-select: none;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #004d40, 0 2px 0 #00483b, 0 3px 0 #004639,
+    0 4px 0 #004336, 0 5px 0 #004134, 0 6px 0 #003f32, 0 7px 0 #003d30,
+    0 8px 0 #003a2d, 0 9px 0 #00382b, 0 10px 0 #003528, 0 11px 0 #003225,
+    0 12px 0 #002f22, 0 13px 0 #002b1e, 0 14px 0 #00281c, 0 15px 0 #001f13,
+    0 22px 30px rgba(0, 0, 0, 0.9), 0 22px 30px rgba(0, 0, 0, 0.9),
+    0 22px 15px rgba(0, 0, 0, 0.9), 0 11px 15px rgba(0, 0, 0, 0.9),
+    0 15px 20px rgba(0, 0, 0, 0.9), 0 15px 11px rgba(0, 0, 0, 0.9),
+    0 16px 11px rgba(0, 0, 0, 0.9);
+
+  transition: text-shadow 0.3s ease 0.3s, transform 0.3s ease 0.3s,
+    letter-spacing 0.3s ease 0.3s;
+
+  /* &:hover {
+    transition: text-shadow .33s ease, 
+      transform .3s ease,
+      letter-spacing .3s ease;
+    text-shadow: 0 0 0 #004134,
+      0 1px 0 #00483B,
+      0 2px 0 #003528,
+      0 3px 3px rgba(0, 0, 0, 0.9);
+    transform: translate(0px, 15px) 
+      perspective(200px) 
+      rotateX(10deg);
+    letter-spacing: .125em;
+  } */
+}
+h1:hover {
+  transition: text-shadow 0.33s ease, transform 0.3s ease,
+    letter-spacing 0.3s ease;
+  text-shadow: 0 0 0 #004134, 0 1px 0 #00483b, 0 2px 0 #003528,
+    0 3px 3px rgba(0, 0, 0, 0.9);
+  transform: translate(0px, 15px) perspective(200px) rotateX(10deg);
+  letter-spacing: 0.125em;
+}
+
+.start-btn {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+}
+.start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.2em;
+}
